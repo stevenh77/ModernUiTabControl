@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ModernTabControlSite", "ModernTabControlSite\", "{B372EB6B-C212-4B6A-A8BB-C0A2CA38BE1E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/ModernTabControlSite"
+		Debug.AspNetCompiler.PhysicalPath = "ModernTabControlSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ModernTabControlSite\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ModernTabControlSite"
+		Release.AspNetCompiler.PhysicalPath = "ModernTabControlSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ModernTabControlSite\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51755"
+		ProjOutputReferences = "{d591ae33-c0ea-4b3e-a4c9-7425abe8d89a}|ClientBin|false;"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernTabControl", "ModernTabControl\ModernTabControl.csproj", "{D591AE33-C0EA-4B3E-A4C9-7425ABE8D89A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B372EB6B-C212-4B6A-A8BB-C0A2CA38BE1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B372EB6B-C212-4B6A-A8BB-C0A2CA38BE1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B372EB6B-C212-4B6A-A8BB-C0A2CA38BE1E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B372EB6B-C212-4B6A-A8BB-C0A2CA38BE1E}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D591AE33-C0EA-4B3E-A4C9-7425ABE8D89A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D591AE33-C0EA-4B3E-A4C9-7425ABE8D89A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D591AE33-C0EA-4B3E-A4C9-7425ABE8D89A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D591AE33-C0EA-4B3E-A4C9-7425ABE8D89A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,19 @@
+﻿<UserControl
+       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+       xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"
+       xmlns:modernTabControl="clr-namespace:ModernTabControl"
+       x:Class="ModernTabControl.MainPage"
+       Width="640" Height="480">
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <modernTabControl:ModernTabControlUI>
+            <sdk:TabItem Header="tab item">
+               <TextBlock>123</TextBlock>
+			</sdk:TabItem>
+            <sdk:TabItem Header="tab item 2">
+                <TextBlock Text="456"></TextBlock>
+            </sdk:TabItem>
+        </modernTabControl:ModernTabControlUI>
+       </Grid>
+</UserControl>
